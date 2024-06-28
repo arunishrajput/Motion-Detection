@@ -2,8 +2,8 @@ import cv2
 import requests
 import time
 
-TELEGRAM_CHAT_ID = 'YOUR_TELEGRAM_CHAT_ID' # Go to @userinfobot and get your "Telegram ID"
-TELEGRAM_BOT_TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN' # @motiondetection69bot
+TELEGRAM_CHAT_ID = 'YOUR_TELEGRAM_CHAT_ID' # Obtain your "Telegram Chat ID" using @userinfobot.
+TELEGRAM_BOT_TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN' # Create a Telegram bot using @BotFather and note down the "Bot Token"
 message = 'Motion Detected!!'  # Message to be sent on Telegram
 camera = 1  # Use 0 for the default camera, or specify a video fdile path
 initial_delay_seconds = 1  # Set the initial delay in seconds
